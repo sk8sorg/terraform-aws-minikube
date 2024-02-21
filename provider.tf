@@ -6,12 +6,12 @@ terraform {
     }
   }
 
-  backend "s3" {
+  /* backend "s3" {
     bucket = "sbucket1-remote-state"
     key    = "minikube"
     region = "us-east-1"
     dynamodb_table = "sbucket1-locking"
-  }
+  } */
 }
 
 provider "aws" {
