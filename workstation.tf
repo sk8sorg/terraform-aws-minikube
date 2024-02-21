@@ -1,4 +1,4 @@
-module "ec2_instance" {
+/* module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
   name = "workstation"
@@ -56,4 +56,4 @@ data "aws_ami" "centos8"{
         name   = "virtualization-type"
         values = ["hvm"]
     }
-}
+} */
