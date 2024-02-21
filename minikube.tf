@@ -5,10 +5,10 @@ module "minikube" {
   cluster_name  = "roboshop"
   aws_instance_type = "t3.medium"
   ssh_public_key = "~/.ssh/daws-76s.pub"
-  aws_subnet_id = "subnet-0ea509ad4cba242d7" #replace your default subnet id
+  aws_subnet_id = "subnet-0c8194b43a9f6b087" #replace your default subnet id
   # by default centos7 will be used
   #ami_image_id = "ami-b81dbfc5"
-  hosted_zone = "daws76s.online"
+  hosted_zone = "suresh.fun"
   hosted_zone_private = false
 
   tags = {
